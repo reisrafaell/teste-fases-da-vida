@@ -39,7 +39,7 @@ export const Home = () => {
 
         <S.Text as="h4">Telefone do Orgão de apoio: {phone}</S.Text>
         <S.Form onSubmit={handleSubmit}>
-          <S.Label htmlFor="idade">Informe sua idade para o cálculo e informação do orgão de apoio:</S.Label>
+          <S.Label htmlFor="idade">Informe um valor para o cálculode idade e informação do orgão de apoio:</S.Label>
 
           <S.Input
             placeholder="Idade"
